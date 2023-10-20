@@ -12,7 +12,8 @@ public class App {
     //     CountHyperLinks c1 = new CountHyperLinks();
     //     ImageURl i = new ImageURl();
     //     NestedFrames n = new NestedFrames();
-        WindowHandle w = new WindowHandle();
+    //     WindowHandle w = new WindowHandle();
+        Imdbrating r = new Imdbrating();
         //TODO: call your test case functions one after other here
 
     //    tests.testCase01();
@@ -20,7 +21,8 @@ public class App {
     //     c1.testCase01();
     //     i.testCase01();
     //     n.testCase01();
-        w.testCase01();
+    //     w.testCase01();
+        r.testCase01();
         //END Tests
 
 
@@ -29,7 +31,8 @@ public class App {
     //     c1.endTest();
     //     i.endTest();
     //     n.endTest();
-        w.endTest();
+    //     w.endTest();
+        r.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
