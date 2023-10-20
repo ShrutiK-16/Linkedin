@@ -40,7 +40,6 @@ public class NestedFrames {
         driver.switchTo().frame(driver.findElement(By.xpath("//frame[@name='frame-right']")));
         WebElement element3 = driver.findElement(By.tagName("body"));
         System.out.println("Right frame text is :"+element3.getText());
-       // driver.switchTo().parentFrame();
         driver.switchTo().defaultContent();
 
         driver.switchTo().frame(driver.findElement(By.xpath("//frame[@name='frame-bottom']")));
