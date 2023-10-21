@@ -11,18 +11,20 @@ public class App {
     //     SearchAmazon s1 = new SearchAmazon();
     //     CountHyperLinks c1 = new CountHyperLinks();
     //     ImageURl i = new ImageURl();
-    //     NestedFrames n = new NestedFrames();
+        NestedFrames n = new NestedFrames();
     //     WindowHandle w = new WindowHandle();
-        Imdbrating r = new Imdbrating();
+    //     Imdbrating r = new Imdbrating();
+     //   LinkedIn l = new LinkedIn();
         //TODO: call your test case functions one after other here
 
     //    tests.testCase01();
     //     s1.testCase02();
     //     c1.testCase01();
     //     i.testCase01();
-    //     n.testCase01();
+         n.testCase01();
     //     w.testCase01();
-        r.testCase01();
+    //     r.testCase01();
+       // l.testCase01();
         //END Tests
 
 
@@ -30,9 +32,10 @@ public class App {
     //    s1.endTest();
     //     c1.endTest();
     //     i.endTest();
-    //     n.endTest();
+         n.endTest();
     //     w.endTest();
-        r.endTest();
+    //     r.endTest();
+      //  l.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
