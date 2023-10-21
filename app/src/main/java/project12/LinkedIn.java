@@ -2,6 +2,7 @@ package project12;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -29,6 +30,8 @@ public class LinkedIn {
         driver.findElement(By.xpath("//input[@id='session_password']")).sendKeys("Linkedin@16");
         driver.findElement(By.xpath("//button[@data-id='sign-in-form__submit-btn']")).click();
         driver.findElement(By.xpath("//span[text()='Start a post']")).click();
+        driver.findElement(By.className("ql-editor ql-blank")).sendKeys("ABC");
+        driver.findElement(By.id("ember336")).click();
     }
     
 }
